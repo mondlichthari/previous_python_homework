@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://paper.people.com.cn/rmrb/pc/content/202512/11/content_30119677.html"
+url = "please fill a url"
 headers = {"User-Agent": "Mozilla/5.0"}
 
 resp = requests.get(url, headers=headers)
